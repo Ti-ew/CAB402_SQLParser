@@ -1,0 +1,9 @@
+name,age,address,postcode
+varchar,int,varchar,int
+"James Atkins",56,"Sussex Street",2000
+"Eden Brown",54,"26 Link Road",3043
+"Allen Gough",56,"34 Patricks Road",4054
+"Sarah Purcell",9,"3,45 Plucks Road",4054
+"Lisa Kelly",,,
+"Eden Brown",66,,4054
+,,"34 Pickering Street",4051

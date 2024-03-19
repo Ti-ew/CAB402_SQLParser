@@ -1,0 +1,7 @@
+﻿postcode,suburb,state
+int,varchar,varchar
+2001,"Sydney","NSW"
+3043,"Tullamarine","VIC"
+4051,"Gaythorne","QLD"
+4054,"Arana Hills","QLD"
+4054,"Keperra","QLD"

@@ -1,0 +1,47 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0.100</TargetFramework>
+
+    <IsPackable>false</IsPackable>
+    <GenerateProgramFile>false</GenerateProgramFile>
+    <IsTestProject>true</IsTestProject>
+  </PropertyGroup>
+
+  <ItemGroup>
+
+
+
+	<Compile Include="TestParseSelectClause.fs" />
+	<Compile Include="TestParseFromClause.fs" />
+	<Compile Include="TestParseWhereClause.fs" />
+	<Compile Include="TestParseGroupByClause.fs" />
+	<Compile Include="TestParseOrderByClause.fs" />
+	<Compile Include="TestParseLimitClause.fs" />
+	<Compile Include="TestParse.fs" />
+	<Compile Include="Compare.fs" />
+    <Compile Include="TestPerformFrom.fs" />
+    <Compile Include="TestPerformWhere.fs" />
+    <Compile Include="TestPerformGroupBy.fs" />
+	<Compile Include="TestPerformHaving.fs" />
+	<Compile Include="TestPerformSelect.fs" />
+	<Compile Include="TestPerformDistinct.fs" />
+	<Compile Include="TestPerformOrderBy.fs" />
+	<Compile Include="TestPerformLimit.fs" />
+    <Compile Include="TestJustExecute.fs" />
+    <Compile Include="TestParseThenExecute.fs" />
+	  <Compile Include="Program.fs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.6.0" />
+    <PackageReference Include="MSTest.TestAdapter" Version="3.1.1" />
+    <PackageReference Include="MSTest.TestFramework" Version="3.1.1" />
+    <PackageReference Include="coverlet.collector" Version="6.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SQL\SQL.fsproj" />
+  </ItemGroup>
+
+</Project>

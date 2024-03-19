@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0.100</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="Data\postcodes.csv" />
+    <None Include="Data\people.csv" />
+    <Compile Include="AST.fs" />
+    <Compile Include="Parser.fs" />
+    <Compile Include="RuntimeTypes.fs" />
+    <Compile Include="IO.fs" />
+    <Compile Include="Execution.fs" />
+    <Compile Include="CommandLineTests.fs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="FParsec" Version="1.1.1" />
+    <PackageReference Include="MSTest.TestFramework" Version="3.1.1" />
+  </ItemGroup>
+
+</Project>
